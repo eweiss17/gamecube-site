@@ -1,0 +1,22 @@
+{
+  "name": "gamecube-website",
+  "version": "1.0.0",
+  "description": "Site for gamecube information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eweiss17/gamecube-site"
+  },
+  "author": "Eric Weiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eweiss17/gamecube-site/issues"
+  },
+  "homepage": "https://github.com/eweiss17/gamecube-site#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0-beta"
+  }
+}

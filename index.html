@@ -12,6 +12,7 @@
 
 <body class="indigo">
     <header class="container">
+        <!--
         <nav>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo center">Logo</a>
@@ -22,13 +23,41 @@
                 </ul>
             </div>
         </nav>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/KioGbD1w5FA?autoplay=1&controls=0&modestbranding=1&rel=0&showinfo=0&end=6" frameborder="0"></iframe>
+        -->
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs indigo tab-selection">
+                    <li class="tab col s4"><a class="active white-text" href="#basic-info">Basic Info</a></li>
+                    <li class="tab col s4"><a class="white-text" href="#video">Opening Theme</a></li>
+                    <li class="tab col s4"><a class="white-text" href="#modern">Gamecube today</a></li>
+                </ul>
+            </div>
+            <div id="basic-info" class="col s12">
+            </div>
+            <div id="video" class="col s12">
+                <div class="row">
+                    <div class="col s4">
+                            <h4 class="center">Nintendo GameCube opening video</h4>
+                            <p>The GameCubes opening is one of the most iconic and nostalig pieces of the gamecube. Weather
+                            watching for the first time of the hundreth time, be sure to watch the video on the right.</p>
+                    </div>
+                    <div class="col s8 tab-border">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/KioGbD1w5FA?controls=0&modestbranding=1&rel=0&showinfo=0&end=6" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modern" class="col s12"></div>
+
         </div>
+
     </header>
     <main>
 
     </main>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <!--Including javascript file with initilizations and helpers-->
+    <script type="text/javascript" src="main.js"></script>
 </body>

@@ -2,6 +2,15 @@ header {
     padding-top: 3%;
 }
 
-.video-container {
-    margin-top:1%
+.tab-selection {
+    margin-bottom: 2%;
 }
+
+.tab-border {
+    border-left: 2px solid gray;
+}
+
+.video-container {
+    margin: 2%;
+}
+

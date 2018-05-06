@@ -1,16 +1,27 @@
-header {
-    padding-top: 3%;
+@font-face {
+   font-family: 'gamecube' ;
+   src: url('/font/gamecuben.ttf') format('truetype');
 }
 
-.tab-selection {
-    margin-bottom: 2%;
+/*
+.box {
+    margin: auto;
+}
+*/
+
+.header {
+/*       align-self: flex-start;*/
+    font-family: 'gamecube', sans-serif;
 }
 
-.tab-border {
-    border-left: 2px solid gray;
+.vertical-align {
+    display: flex;
+/*    height: 80%;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.video-container {
-    margin: 2%;
+.rounded-edges {
+    border-radius: 0.85em;
 }
-

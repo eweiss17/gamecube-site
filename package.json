@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/eweiss17/gamecube-site#readme",
   "dependencies": {
-    "materialize-css": "^1.0.0-beta"
+    "materialize-css": "^0.100.2"
   }
 }

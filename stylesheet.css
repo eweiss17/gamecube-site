@@ -1,6 +1,6 @@
 @font-face {
    font-family: 'gamecube' ;
-   src: url('/font/gamecuben.ttf') format('truetype');
+   src: url('../gamecube-site/font/gamecuben.ttf') format('truetype');
 }
 
 /*

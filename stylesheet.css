@@ -1,6 +1,6 @@
 @font-face {
    font-family: 'gamecube' ;
-   src: url('../gamecube-site/font/gamecuben.ttf') format('truetype');
+   src: url('./font/gamecuben.ttf') format('truetype');
 }
 
 /*
@@ -24,4 +24,14 @@
 
 .rounded-edges {
     border-radius: 0.85em;
+}
+
+.top-rounded-edges {
+    border-radius: 0.85em 0.85em 0 0;
+}
+
+.scroll-box {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80vh;
 }

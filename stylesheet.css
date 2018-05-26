@@ -3,23 +3,9 @@
    src: url('./font/gamecuben.ttf') format('truetype');
 }
 
-/*
-.box {
-    margin: auto;
-}
-*/
 
-.header {
-/*       align-self: flex-start;*/
+.gamecube-text {
     font-family: 'gamecube', sans-serif;
-}
-
-.vertical-align {
-    display: flex;
-/*    height: 80%;*/
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .rounded-edges {
@@ -30,9 +16,28 @@
     border-radius: 0.85em 0.85em 0 0;
 }
 
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #scroll-box {
     overflow-y: scroll;
     overflow-x: hidden;
     height: 80vh;
     padding: 0 2% 0 2%;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    #scroll-box {
+        height: 75vh;
+    }
 }

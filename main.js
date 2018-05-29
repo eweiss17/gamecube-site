@@ -3,6 +3,8 @@ $(document).ready(function () {
         interval: 100000000000
     });
 
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+
     $('#scroll-box').overlayScrollbars({
          className: "os-theme-thick-dark"
     });

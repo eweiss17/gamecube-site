@@ -30,8 +30,28 @@
     padding: 0 2% 0 2%;
 }
 
+.orange-box {
+    background-image: url("../images/orange-spice-cube.jpg");
+}
+
+.cyan-box {
+    background-image: url("../images/tales-symphonia-cube.jpg");
+}
+
+.red-box {
+    background-image: url("../images/gundam-cube.jpg");
+}
+
+.white-box {
+    background-image: url("../images/hashin-tigers-cube.jpg");
+}
+
+
 .image-box {
-    height: 50%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 800px) {

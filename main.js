@@ -4,7 +4,8 @@ $(document).ready(function () {
     });
 
     $('#side-slider').slider({
-        indicators: false
+        indicators: false,
+        height: 650
     });
 
     $('.carousel.carousel-slider').carousel({fullWidth: true});

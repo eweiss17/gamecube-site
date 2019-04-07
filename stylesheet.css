@@ -48,9 +48,6 @@
 
 .image-box {
     height: 400px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 800px) {

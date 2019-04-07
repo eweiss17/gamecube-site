@@ -1,6 +1,10 @@
 $(document).ready(function () {
-    $('.slider').slider({
+    $('#main-slider').slider({
         interval: 100000000000
+    });
+
+    $('#side-slider').slider({
+        indicators: false
     });
 
     $('.carousel.carousel-slider').carousel({fullWidth: true});
